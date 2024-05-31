@@ -7,6 +7,6 @@ const text = document.getElementById('text');
 //HTML要素がクリックされたときにイベント処理を実行する
 btn.addEventListener('click', () => {
   setTimeout(() => {
-  document.getElementById(text).textContent = 'ボタンをクリックしました';
+  text.textContent = 'ボタンをクリックしました';
   },2000);
 });
